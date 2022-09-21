@@ -321,6 +321,25 @@ template {
   --text-color: #FFFFFF;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, p, a {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }
@@ -347,4 +366,23 @@ body {
 
 .norm-typo {
   font-family: "Inter", sans-serif;
+}
+
+main {
+  min-height: calc(100vh - 120px);
+}
+
+footer {
+  min-height: 120px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+main > * {
+  flex: 1;
 }/*# sourceMappingURL=main.css.map */

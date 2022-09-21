@@ -1,0 +1,18 @@
+$footer_height: 120px;
+main {
+  min-height: calc(100vh - $footer_height);
+}
+footer {
+  min-height: $footer_height;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 40px;
+  > * {
+    flex: 1;
+  }
+}
