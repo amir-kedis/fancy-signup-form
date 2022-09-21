@@ -312,10 +312,8 @@ template {
   --main-bgc: #A5165E;
   --footer-bgc: #2D2D2D;
   --tweeter-c: #1DE4FF;
-  --image-overlay-c: #69263E;
-  --image-overlay-o: 0.45;
-  --form-overlay-c: #0D1C1D;
-  --form-overlay-o: #0.3;
+  --image-overlay-c: #69263d6e;
+  --form-overlay-c: #0d1c1d42;
   --secondary-c: #3F9F97;
   --alert-danger-c: #FF0000;
   --text-color: #FFFFFF;
@@ -380,7 +378,6 @@ main {
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: wrap;
-  gap: 40px;
 }
 main > * {
   flex: 1;
@@ -410,4 +407,19 @@ main > * {
 }
 .footer img:hover {
   transform: scale(1.05);
+}
+
+.header {
+  background-image: url(../assets/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .title-overlay {
+  background-color: var(--image-overlay-c);
+  flex: 1;
+  padding: 40px;
 }/*# sourceMappingURL=main.css.map */

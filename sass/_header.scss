@@ -1,0 +1,15 @@
+.header {
+    background-image: url(../assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .title-overlay {
+        background-color:  var(--image-overlay-c);
+        flex: 1;
+        padding: 40px;
+    }
+}
