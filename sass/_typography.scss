@@ -2,11 +2,24 @@
 
 body {
   font-family: "Inter", sans-serif;
+
+}
+
+:root {
+  font-size: 16px;
+
+  @media (max-width: 768px) {
+    font-size: 13px !important;
+  }
 }
 
 .fancy-title {
   font-size: 6rem;
   font-family: "Press Start 2P", cursive;
+    @media (max-width: 768px) {
+    font-size: 3.5rem;
+  }
+  padding: 5rem 0;
 }
 
 .normal-headline {

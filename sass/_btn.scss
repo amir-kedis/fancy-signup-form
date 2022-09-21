@@ -1,17 +1,21 @@
 .btn {
-    font-size: 0.8rem;
-    padding: 15px;
-    color: var(--text-color);
-    background-color: var(--secondary-c);
-    margin: 20px;
-    border-radius: 8px;
-    border: none;
-    outline: none;
-    box-shadow: -4px 6px 9px 0 #0000004a;
-    cursor: pointer;
-    transition: transform 0.1s ease-in-out;
+  font-size: 0.8rem;
+  padding: 15px;
+  color: var(--text-color);
+  background-color: var(--secondary-c);
+  margin: 20px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  box-shadow: -4px 6px 9px 0 #0000004a;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
 
-    &:hover {
-        transform: scale(1.01);
-    }
+  &:hover {
+    transform: scale(1.01);
+  }
+}
+.alert {
+  font-weight: 800;
+  color: #ff0039;
 }

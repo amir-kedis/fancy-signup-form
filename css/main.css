@@ -341,9 +341,24 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+:root {
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  :root {
+    font-size: 13px !important;
+  }
+}
+
 .fancy-title {
   font-size: 6rem;
   font-family: "Press Start 2P", cursive;
+  padding: 5rem 0;
+}
+@media (max-width: 768px) {
+  .fancy-title {
+    font-size: 3.5rem;
+  }
 }
 
 .normal-headline {
@@ -455,7 +470,7 @@ main > * {
 }
 .form__row {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
@@ -476,6 +491,7 @@ main > * {
   font-weight: 800;
 }
 .form__input {
+  min-width: 250px;
   width: 100%;
   font-size: 1rem;
   padding: 10px;
@@ -501,4 +517,9 @@ main > * {
 }
 .btn:hover {
   transform: scale(1.01);
+}
+
+.alert {
+  font-weight: 800;
+  color: #ff0039;
 }/*# sourceMappingURL=main.css.map */
