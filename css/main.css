@@ -422,4 +422,66 @@ main > * {
   background-color: var(--image-overlay-c);
   flex: 1;
   padding: 40px;
+}
+
+.form-wrapper {
+  background-color: var(--main-bgc);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.form-wrapper .text-headline {
+  padding: 40px;
+}
+.form-wrapper .text-headline h2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.form-wrapper .text-headline p {
+  font-size: 1.2rem;
+  max-width: 80%;
+}
+
+.form__overlay {
+  background-color: var(--form-overlay-c);
+  padding: 40px;
+}
+.form__title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+.form__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.form__row > * {
+  flex: 1;
+}
+.form__input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.form__input-label {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.form__input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 0.7rem;
+  outline: none;
+  border: 6px var(--secondary-c) solid;
+  border-top: 0;
+  border-right: 0;
 }/*# sourceMappingURL=main.css.map */
