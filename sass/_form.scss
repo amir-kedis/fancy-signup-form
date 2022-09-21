@@ -5,8 +5,6 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 40px;
-
   .text-headline {
     padding: 40px;
     h2 {
@@ -47,6 +45,7 @@
   &__input-wrapper {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 20px;
   }

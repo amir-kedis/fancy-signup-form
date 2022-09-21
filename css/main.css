@@ -430,7 +430,6 @@ main > * {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 40px;
 }
 .form-wrapper .text-headline {
   padding: 40px;
@@ -467,6 +466,7 @@ main > * {
 .form__input-wrapper {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 20px;
 }
@@ -484,4 +484,21 @@ main > * {
   border: 6px var(--secondary-c) solid;
   border-top: 0;
   border-right: 0;
+}
+
+.btn {
+  font-size: 0.8rem;
+  padding: 15px;
+  color: var(--text-color);
+  background-color: var(--secondary-c);
+  margin: 20px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  box-shadow: -4px 6px 9px 0 rgba(0, 0, 0, 0.2901960784);
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+.btn:hover {
+  transform: scale(1.01);
 }/*# sourceMappingURL=main.css.map */
